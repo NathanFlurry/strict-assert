@@ -1,0 +1,19 @@
+{
+    "name": "strict-assert",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc --watch",
+        "prepublishOnly": "npm i && rm -rf dist/ && npm run build"
+    },
+    "author": "Nathan Flurry <npm@nathanflurry.com> (http://nathanflurry.com)",
+    "license": "ISC",
+    "devDependencies": {
+        "typescript": "^3.2.2"
+    },
+    "files": [
+        "dist/**/*"
+    ]
+}
